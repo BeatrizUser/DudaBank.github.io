@@ -1,0 +1,10 @@
+POST  http://localhost:3000/cadastro
+Content-Type: application/json
+
+{
+    "nome":"Beatriz",
+    "login": "bia123",
+    "senha": 123,
+    "conta": 00001,
+    "agencia": 001
+}

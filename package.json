@@ -1,0 +1,24 @@
+{
+  "name": "dudabank.github.io",
+  "version": "1.0.0",
+  "description": "DudaBank-Banco para treinamento de JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon App.js"
+  },
+  "author": "Beatriz Machado",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "sequelize": "^6.21.1",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "type": "module"
+}
